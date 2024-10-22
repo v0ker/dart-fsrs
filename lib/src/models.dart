@@ -235,10 +235,10 @@ class Parameters {
   Parameters({
     double? requestRetention,
     int? maximumInterval,
-    List<double>? w,
+    List<double>? weight,
   })  : requestRetention = requestRetention ?? 0.9,
         maximumInterval = maximumInterval ?? 36500,
-        w = w ??
+        weight = weight ??
             const [
               0.4072,
               1.1829,
@@ -268,5 +268,5 @@ class Parameters {
   int maximumInterval;
 
   /// TODO: document
-  List<double> w;
+  List<double> weight;
 }
